@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 import { User } from './typeorm/entities/User';
 import { UsersModule } from './users/users.module';
 
+console.log("hello");
 @Module({
   imports: [TypeOrmModule.forRoot({
     type: "postgres",
